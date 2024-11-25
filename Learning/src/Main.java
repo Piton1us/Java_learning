@@ -49,7 +49,30 @@ public class Main {
 //        res ++;
 //
 //        System.out.print(res);
+// ///////////////////////////////////////////////////
 
+        //Шестой урок: условные конструкции
+//        int a = 15, b = 10;
+//        if(1 < 0 || a == b) {
+//            System.out.println("Jo pa");
+//        } else if(a > b) {
+//            if(a > b){
+//                System.out.println("Sosat");
+//            }else{
+//                System.out.println("Ne sosat");
+//            }
+//        }else{
+//            System.out.println("Ne jo pa");
+//        }
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Введите число: ");
+        int num = scan.nextInt();
+
+        if(num > 10){
+            System.out.println("Ваше число: " + num + " больше 10");
+        } else{
+            System.out.println("Ваше число: " + num + " Меньше 10");
+        }
 
     }
 

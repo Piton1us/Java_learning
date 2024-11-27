@@ -64,15 +64,53 @@ public class Main {
 //        }else{
 //            System.out.println("Ne jo pa");
 //        }
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Введите число: ");
-        int num = scan.nextInt();
 
-        if(num > 10){
-            System.out.println("Ваше число: " + num + " больше 10");
-        } else{
-            System.out.println("Ваше число: " + num + " Меньше 10");
-        }
+//        Scanner scan = new Scanner(System.in);
+//        System.out.print("Введите число: ");
+//        String num = scan.nextLine();
+//        //.equals() проверяет на равенство
+//        if(num.equals("Admin")){
+//            System.out.println("Ваше число: " + num + " больше 10");
+//        } else{
+//            System.out.println("Ваше число: " + num + " Меньше 10");
+//        }
+
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Введите первое число: ");
+//        int num1 = scanner.nextInt();
+//
+//        System.out.print("Введите второе число: ");
+//        int num2 = scanner.nextInt();
+//
+//        System.out.print("Введите действие: ");
+//        String des = scanner.nextLine();
+//        des = scanner.nextLine();
+//        int res;
+//
+//        switch (des){
+//            case "+":
+//                res = num1 + num2;
+//                System.out.println("Result = " + res);
+//                break;
+//            case "-":
+//                res = num1 - num2;
+//                System.out.println("Result = " + res);
+//                break;
+//            case "*":
+//                res = num1 * num2;
+//                System.out.println("Result = " + res);
+//                break;
+//            case "/":
+//                res = num1 / num2;
+//                System.out.println("Result = " + res);
+//                break;
+//            default:
+//                System.out.println("idi na[et");
+
+
+//        }
+
+
 
     }
 

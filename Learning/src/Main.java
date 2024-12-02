@@ -1,4 +1,5 @@
 import java.security.KeyStore;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -120,8 +121,46 @@ public class Main {
 //            System.out.println(i);
 //            i++;
 //        }
+        /////////////////////////////////////////////////////////////////////////////////////
+        //Восьмой урок: циклы и операторы в них.
 
+//        int[] nums = new int[5];
+//        nums[0] = 32;
+//        nums[1] = 31;
+//        nums[2] = 30;
+//        nums[3] = 29;
+//        nums[4] = 28;
+//        int res = nums[0] + nums[1];
+//        System.out.println(res);
+//
+//        float[] nums2 = new float[] {5.0f,3.0f,1.33f};
+//        System.out.println(nums2[1]);
+//
+//        for (int i = 0; i < nums.length; i++){
+//            System.out.println(nums[i]);
+//        }
+//        //Сокращенный вид
+////        for (int num : nums) {
+////            System.out.println(num);
+////        }
 
+//        int[] arr = new int[4];
+//
+//        Scanner scanner = new Scanner(System.in);
+//
+//        for (int i = 0; i < arr.length; i++ ){
+//            System.out.print("Введите число: ");
+//            arr[i] = scanner.nextInt();
+//        }
+//        System.out.println(Arrays.toString(arr));
+//
+//        int min = arr[0];// поиск минимума из массива
+//        for (int i = 0; i < arr.length; i++){
+//            if(arr[i] < min){
+//                min =  arr[i];
+//            }
+//        }
+//        System.out.println(min);
     }
 
 }

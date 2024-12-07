@@ -1,5 +1,7 @@
 import java.security.KeyStore;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Main {
@@ -161,6 +163,30 @@ public class Main {
 //            }
 //        }
 //        System.out.println(min);
+        /////////////////////////////////////////////////////////////////////////////////////
+        //Девятый урок: Коллекции в Java.
+//        ArrayList<Integer> numbers = new ArrayList<>();
+//        numbers.add(5);
+//        numbers.add(10);
+//
+//        numbers.add(1,3);//Вставка в нужное место
+//        System.out.println(numbers.get(1));//Получение определённого индекса
+//
+//        System.out.println(numbers.size());// Размерность Коллекции
+//        numbers.remove(1);//Удаление элемента по индексу
+//
+//        for (Integer el : numbers){
+//            System.out.println(el);
+//        }
+
+//        LinkedList<Integer> numbers = new LinkedList<>();//Более оптимизирован для добавления и удаления элементов
+//        numbers.add(123);
+//        numbers.add(12323123);
+//
+//        for (Integer el : numbers){
+//            System.out.println(el);
+//        }
+
     }
 
 }

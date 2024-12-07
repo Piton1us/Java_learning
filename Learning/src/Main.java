@@ -186,7 +186,28 @@ public class Main {
 //        for (Integer el : numbers){
 //            System.out.println(el);
 //        }
+/////////////////////////////////////////////////////////////////////////////////////
+        //Десятый урок: функции в Java.
+
+        //info("Chill guy");
+//      int resultat = summa(1,9);
+//      info("Результат : " + resultat);
 
     }
+
+    public static int summa(int a,int b){
+        int res = a + b;
+        String result = "Результат: " + res;
+        info(result);
+        return  res;
+
+    }
+
+    public static void info(String word){
+
+        System.out.println(word);
+
+    }
+
 
 }

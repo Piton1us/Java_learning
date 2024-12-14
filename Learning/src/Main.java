@@ -193,17 +193,20 @@ public class Main {
 //      int resultat = summa(1,9);
 //      info("Результат : " + resultat);
 /////////////////////////////////////////////////////////////////////////////////////
-        //Двенадцатый урок: Создание классов и объектов;
-        Transport audi = new Transport();
-        audi.setValues(230.5f,2500,"White",new int[] {0,0,0} );
-        System.out.println(audi.getValues());
+//        Двенадцатый урок и тренадцатый: Создание классов и объектов;
+        Transport audi = new Transport(230.5f,2500,"White",new int[] {0,0,0} );
+        Transport bmw = new Transport(2.5f,21500);
+        //audi.setValues(230.5f,2500,"White",new int[] {0,0,0} );
+        //System.out.println(audi.getValues());
 
 //        audi.speed = 230.5f;
 //        audi.weight = 2500;
 //        audi.color = "White";
 //        audi.coordinate = new int[] {0,0,0};
 
-        System.out.println(audi.color);
+       // System.out.println(audi.color);
+
+
     }
 
     public static int summa(int a,int b){

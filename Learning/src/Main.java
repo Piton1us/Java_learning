@@ -194,33 +194,44 @@ public class Main {
 //      info("Результат : " + resultat);
 /////////////////////////////////////////////////////////////////////////////////////
 //        Двенадцатый урок и тренадцатый: Создание классов и объектов;
-        Transport audi = new Transport(230.5f,2500,"White",new int[] {0,0,0} );
-        Transport bmw = new Transport(2.5f,21500);
-        //audi.setValues(230.5f,2500,"White",new int[] {0,0,0} );
-        //System.out.println(audi.getValues());
 
-//        audi.speed = 230.5f;
-//        audi.weight = 2500;
-//        audi.color = "White";
-//        audi.coordinate = new int[] {0,0,0};
+       // Car audi = new Car(230.5f,2500,"White",new int[] {0,0,0} );
+        Truck maz = new Truck(2.5f,21500,false);
 
-       // System.out.println(audi.color);
+        maz.setValues(230.5f,2500,"White",new int[] {0,0,0} );
+       System.out.println(maz.getValues());
 
 
-    }
 
-    public static int summa(int a,int b){
-        int res = a + b;
-        String result = "Результат: " + res;
-        info(result);
-        return  res;
 
-    }
 
-    public static void info(String word){
 
-        System.out.println(word);
+
+
+
+
+
+
+
+
+
+
+
 
     }
+
+//    public static int summa(int a,int b){
+//        int res = a + b;
+//        String result = "Результат: " + res;
+//        info(result);
+//        return  res;
+//
+//    }
+//
+//    public static void info(String word){
+//
+//        System.out.println(word);
+//
+//    }
 
 }

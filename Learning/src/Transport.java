@@ -2,31 +2,32 @@ public class Transport {
 
 private float speed;
 private int weight;
-private String color;
+protected String color;
 private int[] coordinate;
+
 
 public Transport(float _speed,int _weight,String _color,int[] _coordinate){
     System.out.println("Объект создан");
     setValues(_speed,_weight,_color,_coordinate);
-    System.out.println(getValues());
+   // System.out.println(getValues());
 }
 
-public Transport(float _speed,int _weight){
+public Transport(float speed,int weight){
     System.out.println("Объект создан");
-    speed = _speed;
-    weight = _weight;
-    System.out.println(getValues());
+    this.speed = speed;
+    this.weight = weight;
+   // System.out.println(getValues());
 }
 
 
-public void setValues(float speed,int weight,String color,int[] coordinate){
+protected void setValues(float speed,int weight,String color,int[] coordinate){
    this.speed = speed;
    this.weight = weight;
    this.color = color;
    this.coordinate = coordinate;
 }
 
-public String getValues(){
+protected String getValues(){
 
     if (color == null){
         String info = "object speed: " + speed + ". weight: " + weight;

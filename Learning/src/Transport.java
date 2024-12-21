@@ -40,6 +40,28 @@ String info = "object speed: " + speed + ". weight: " + weight + " .color: " + c
     return info;
 }
 
+    class Engine {
+
+        private boolean isReady;
+        private int km;
+
+        public void setValues(int km){
+            this.km = km;
+        }
+
+        public void isReady(boolean isReady){
+            this.isReady = isReady;
+        }
+
+        public void info(){
+            if(km < 10000)
+                System.out.println("Двигатель исправен");
+            else
+                System.out.println("Двигатель неисправен - он проехал уже" + km);
+
+        }
+
+    }
 
 
 

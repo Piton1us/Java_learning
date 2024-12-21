@@ -1,8 +1,11 @@
+
+
 import java.security.KeyStore;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Scanner;
+
 
 public class Main {
 
@@ -199,9 +202,24 @@ public class Main {
         Truck maz = new Truck(2.5f,21500,false);
 
         maz.setValues(230.5f,2500,"White",new int[] {0,0,0} );
-       System.out.println(maz.getValues());
 
-       maz.moveObject(100);
+        // System.out.println(maz.getValues());
+
+       //maz.moveObject(100);
+
+        maz.engine.setValues(100000);
+        maz.engine.info();
+
+        Car flycar = new Car(230.5f,2500,"White",new int[] {0,0,0}){//анонимный класс(для еденеичного переписания класса )
+            @Override
+            public void moveObject(int speed){
+                super.moveObject(speed);
+
+            }
+        };
+
+        flycar.moveObject(100);
+
 
 
 

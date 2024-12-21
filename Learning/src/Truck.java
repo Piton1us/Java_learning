@@ -1,6 +1,7 @@
 public class Truck extends Transport{
 
     private boolean isLoaded;
+    public Engine engine = new Engine();
 
     public Truck(float speed,int weight){
         super(speed,weight);
@@ -39,5 +40,7 @@ public class Truck extends Transport{
             return "Грузовик не загружен";
         }
     }
+
+
 
 }

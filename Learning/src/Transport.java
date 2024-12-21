@@ -1,4 +1,4 @@
-public class Transport {
+public abstract class Transport {
 
 private float speed;
 private int weight;
@@ -18,6 +18,8 @@ public Transport(float speed,int weight){
     this.weight = weight;
    // System.out.println(getValues());
 }
+
+public  abstract void moveObject(int speed);
 
 
 protected void setValues(float speed,int weight,String color,int[] coordinate){

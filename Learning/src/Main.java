@@ -201,6 +201,8 @@ public class Main {
         maz.setValues(230.5f,2500,"White",new int[] {0,0,0} );
        System.out.println(maz.getValues());
 
+       maz.moveObject(100);
+
 
 
 

@@ -11,6 +11,10 @@ public class Truck extends Transport{
         this.isLoaded = isLoaded;
     }
 
+    @Override
+    public void moveObject(int speed){
+        System.out.println("Двигается со скоростью - "+ speed +"км/ч");
+    }
 
     public void setValues(float speed,int weight,String color,int[] coordinate, boolean isLoaded){
         super.setValues(speed,weight,color,coordinate);
